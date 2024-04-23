@@ -5,12 +5,15 @@
 body{
     background-color:rgb(233, 102, 102);
     border: 5px solid white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input{
     width:200px;
     height:25px;
     border-radius: 15px;
+    border: 0;
+    border-bottom: 2px solid gray;
 }
 
 .form-name{
@@ -36,6 +39,11 @@ input{
 }
 
 .heading{
+    font-size:x-large;
+    font-weight:lighter;
+    font-style: italic;
+    font-variant:small-caps;
+
     text-align: center;
 
     /* Top Right Bottom Left */
@@ -47,4 +55,21 @@ input{
     /* Top Right Bottom Left */
     padding: 10px 5px 5px 10px;  /* Creates space inside border around elements*/
     margin: 20px 10px 20px 10px; /* Creates space outside the border*/
+}
+
+.span{
+    display: block;
+}
+
+.div{
+    display: inline;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background-color:skyblue;
+    border-radius: 20px;
+    margin: 10px;
 }
