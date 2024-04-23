@@ -1,0 +1,50 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color:rgb(233, 102, 102);
+    border: 5px solid white;
+}
+
+input{
+    width:200px;
+    height:25px;
+    border-radius: 15px;
+}
+
+.form-name{
+    color:white;
+
+    background: skyblue;
+    background-image: url(https://rb.gy/ujkarg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+    text-decoration: underline;
+    text-transform:capitalize;
+
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+    width: 100px;
+    height: 30px;
+
+    border-radius: 50px;
+}
+
+.heading{
+    text-align: center;
+
+    /* Top Right Bottom Left */
+    border: 5px solid white;
+
+    /* padding: 10px;
+    margin: 10px; */
+
+    /* Top Right Bottom Left */
+    padding: 10px 5px 5px 10px;  /* Creates space inside border around elements*/
+    margin: 20px 10px 20px 10px; /* Creates space outside the border*/
+}
